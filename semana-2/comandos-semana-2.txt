@@ -1,0 +1,11 @@
+pwd
+
+ls
+
+mkdir
+
+cd ..
+
+echo "texto" >> nombre_archivo
+
+git push

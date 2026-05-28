@@ -1,0 +1,1 @@
+Es importante porque la terminal le permite al desarrollador moverse rápidamente entre carpetas, organizar archivos y ejecutar tareas del proyecto de forma más eficiente. Además, ayuda a tener mayor control del trabajo y facilita el uso de herramientas profesionales que se usan en el desarrollo de software
