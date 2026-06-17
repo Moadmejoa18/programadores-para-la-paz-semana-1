@@ -1,0 +1,13 @@
+Las APIs representan una de las herramientas más útiles para conectar comunidades
+con servicios digitales, porque permiten que la información fluya de forma ordenada
+entre aplicaciones, dispositivos y personas sin importar la distancia. Una comunidad
+que cuente con una API bien diseñada podría crear un sistema donde sus miembros
+reporten problemas del barrio, soliciten servicios o reciban alertas en tiempo real
+directamente en sus teléfonos. Esto transforma la forma en que se gestiona la
+información comunitaria, pasando de llamadas telefónicas y reuniones presenciales
+a un sistema digital centralizado y accesible para todos. Además las APIs permiten
+que distintas plataformas se conecten entre sí, por ejemplo una aplicación móvil
+podría enviar reportes a un servidor que los procesa y los muestra en un mapa
+accesible para toda la comunidad. En zonas con pocos recursos tecnológicos, una
+API sencilla construida con Node.js y Express puede ser suficiente para mejorar
+significativamente la organización y comunicación de una comunidad entera.
