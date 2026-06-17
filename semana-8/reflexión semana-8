@@ -1,0 +1,18 @@
+La seguridad digital es un elemento fundamental en cualquier plataforma tecnológica,
+especialmente en aquellas que son utilizadas por comunidades o que apoyan procesos
+participativos. Cuando los ciudadanos reportan incidencias, registran datos o hacen
+seguimiento a problemas de su barrio, están confiando información personal y sensible
+a esa plataforma. Si esa información no está protegida, puede ser robada, manipulada
+o usada de forma indebida, lo que pone en riesgo tanto a las personas como a la
+credibilidad del sistema.
+Proteger una plataforma comunitaria no es solo una responsabilidad técnica, también es
+una responsabilidad ética. Los administradores de estas plataformas deben garantizar
+que los datos de los ciudadanos estén cifrados, que solo personas autorizadas puedan
+acceder a información sensible y que el sistema esté actualizado para evitar
+vulnerabilidades conocidas.
+Además, en contextos participativos donde se gestionan recursos públicos o se toman
+decisiones colectivas, una brecha de seguridad puede afectar la confianza de la
+comunidad en la tecnología y frenar la participación ciudadana. Por eso, aprender
+comandos básicos de Linux, conocer el sistema donde corre el servidor y aplicar
+buenas prácticas desde el inicio del desarrollo son pasos esenciales para construir
+plataformas digitales confiables, seguras y útiles para todos.
