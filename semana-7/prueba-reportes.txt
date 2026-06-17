@@ -1,0 +1,48 @@
+Prueba de las rutas GET y POST en /reportes
+============================================
+
+PASO 1 — Registro de un reporte con POST
+-----------------------------------------
+Se envió una petición POST a: http://localhost:3000/reportes
+
+JSON enviado:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+Respuesta del servidor:
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+El servidor recibió los datos del body, creó un objeto con un id automático
+(usando reportes.length + 1), lo guardó en el array "reportes" y devolvió
+una confirmación con el reporte registrado.
+
+PASO 2 — Consulta de reportes con GET
+---------------------------------------
+Se envió una petición GET a: http://localhost:3000/reportes
+
+Respuesta del servidor:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+El servidor devuelve el array completo de reportes almacenados en memoria.
+Cada vez que se registra un nuevo reporte con POST, queda disponible
+al consultar con GET.
+
+NOTA IMPORTANTE:
+Los reportes se guardan en memoria mientras el servidor está encendido.
+Si el servidor se reinicia, el array "reportes" vuelve a estar vacío
+porque todavía no se usa una base de datos.

@@ -1,0 +1,48 @@
+Ejemplos de reportes ciudadanos registrados en el sistema
+===========================================================
+
+Ejemplo 1:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público en el parque central del barrio, varias lámparas llevan más de una semana sin funcionar."
+}
+
+Respuesta del servidor:
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público en el parque central del barrio, varias lámparas llevan más de una semana sin funcionar."
+  }
+}
+
+Ejemplo 2:
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos en una zona comunitaria cerca de la cancha deportiva, generando malos olores y riesgo para la salud."
+}
+
+Respuesta del servidor:
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria cerca de la cancha deportiva, generando malos olores y riesgo para la salud."
+  }
+}
+
+Resultado al consultar GET /reportes después de los dos registros:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público en el parque central del barrio, varias lámparas llevan más de una semana sin funcionar."
+  },
+  {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria cerca de la cancha deportiva, generando malos olores y riesgo para la salud."
+  }
+]
