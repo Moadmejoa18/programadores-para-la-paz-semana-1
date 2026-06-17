@@ -1,0 +1,45 @@
+Comandos ejecutados en la terminal Linux
+=========================================
+
+Comando 1: uname -a
+--------------------
+Resultado obtenido:
+Linux vm 6.18.5 #1 SMP PREEMPT_DYNAMIC @0 x86_64 x86_64 x86_64 GNU/Linux
+
+Qué muestra cada parte:
+- Linux         → nombre del sistema operativo
+- vm            → nombre del equipo (hostname)
+- 6.18.5        → versión del kernel de Linux instalado
+- SMP           → indica que el sistema soporta múltiples procesadores
+- x86_64        → arquitectura del procesador (64 bits)
+- GNU/Linux     → confirma que es un sistema GNU/Linux
+
+En resumen, uname -a muestra información completa sobre el sistema operativo,
+la versión del kernel, el nombre del equipo y la arquitectura del procesador.
+
+Comando 2: whoami
+------------------
+Resultado obtenido:
+root
+
+Qué muestra:
+whoami muestra el nombre del usuario con el que se está trabajando actualmente
+en la terminal. En este caso, el usuario es "root", que es el usuario administrador
+con permisos totales sobre el sistema.
+
+¿Por qué es útil conocer esta información al administrar un servidor?
+----------------------------------------------------------------------
+Conocer la información del sistema es fundamental cuando se administra un servidor
+por varias razones:
+
+1. Verificar la versión del kernel ayuda a saber si el sistema tiene las últimas
+   actualizaciones de seguridad instaladas o si necesita ser actualizado.
+
+2. Conocer el usuario activo con whoami evita errores graves: ejecutar comandos
+   como root sin saberlo puede modificar o eliminar archivos críticos del sistema.
+
+3. Conocer la arquitectura del procesador (x86_64) es necesario para instalar
+   programas y dependencias compatibles con el sistema.
+
+4. En entornos de producción, esta información permite diagnosticar problemas,
+   documentar el servidor y garantizar que los servicios funcionen correctamente.
