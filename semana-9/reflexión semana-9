@@ -1,0 +1,16 @@
+Que una plataforma tecnológica comunitaria funcione de manera estable y segura
+en un servidor es una condición indispensable para que sea realmente útil. Si el
+servidor se cae con frecuencia o responde de forma lenta, los ciudadanos perderán
+confianza en la herramienta y dejarán de usarla, lo que afecta directamente la
+participación y el propósito de la plataforma.
+La estabilidad también garantiza que los reportes, incidencias u otras solicitudes
+enviadas por los usuarios lleguen correctamente y no se pierdan. Imaginar que un
+ciudadano envía un reporte urgente sobre una fuga de agua o un problema de seguridad
+y el servidor no está disponible en ese momento, refleja bien las consecuencias reales
+que puede tener una plataforma inestable.
+Por otro lado, la seguridad del servidor protege los datos personales de quienes
+usan la plataforma. Un servidor mal configurado puede ser atacado, lo que pondría
+en riesgo información sensible de toda la comunidad. Por eso conocer conceptos como
+puertos, logs, monitoreo y control de procesos no es solo teoría: es la base práctica
+para construir y mantener servicios digitales confiables, responsables y que estén
+disponibles cuando la comunidad los necesita.
