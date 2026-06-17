@@ -1,0 +1,39 @@
+Ejecución del servidor Node.js con Express
+==========================================
+
+¿Qué ocurre al ejecutar node server.js?
+-----------------------------------------
+Al ejecutar el comando "node server.js" en la terminal, Node.js lee e interpreta
+el archivo server.js. Express configura las rutas definidas (/ y /estado) y el
+servidor queda en espera activa, listo para recibir solicitudes de cualquier
+cliente que se conecte al puerto 3000.
+
+El proceso no termina solo; se mantiene corriendo hasta que se detenga manualmente
+con Ctrl+C o se cierre la terminal.
+
+Mensaje que aparece en la terminal:
+------------------------------------
+Servidor ejecutándose en puerto 3000
+
+Este mensaje lo genera la función callback dentro de app.listen(3000, ...).
+Indica que el servidor arrancó correctamente y está escuchando en el puerto 3000.
+
+¿Qué sucede al visitar la ruta raíz /?
+----------------------------------------
+Al ingresar a http://localhost:3000 en el navegador, el servidor responde con
+el siguiente texto plano:
+
+  Servidor activo y funcionando
+
+¿Qué sucede al visitar la ruta /estado?
+-----------------------------------------
+Al ingresar a http://localhost:3000/estado, el servidor responde con un objeto
+JSON que confirma el estado del servicio:
+
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
+
+Esta ruta es útil para verificar rápidamente si el servidor está activo y
+qué servicio está corriendo, sin necesidad de revisar el código fuente.
