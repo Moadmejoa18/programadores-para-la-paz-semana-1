@@ -1,0 +1,16 @@
+Que una comunidad pueda registrar y consultar reportes en una plataforma tecnológica
+es clave para mejorar la calidad de vida de sus habitantes. Cuando los ciudadanos
+tienen la posibilidad de reportar problemas como daños en la infraestructura, acumulación
+de basuras o fallas en los servicios públicos, las autoridades pueden conocer de forma
+organizada cuáles son las necesidades reales del sector y actuar con mayor rapidez.
+Una plataforma que permite consultar los reportes con una ruta GET da visibilidad
+a los problemas existentes, evita que las quejas se pierdan y facilita el seguimiento
+de cada incidencia. Esto genera confianza entre los ciudadanos, quienes pueden verificar
+que su reporte fue registrado y está siendo atendido.
+Además, al tener la información almacenada en un sistema, es posible identificar
+patrones: si muchos reportes son del mismo tipo o zona, la comunidad puede priorizar
+esa área. Esto permite tomar decisiones basadas en datos reales y no en suposiciones.
+En conclusión, construir una API que registre y consulte reportes no es solo un ejercicio
+técnico: es la base de herramientas reales que fortalecen la participación ciudadana,
+mejoran la comunicación con las instituciones y contribuyen a comunidades más organizadas,
+transparentes y con mejor calidad de vida.
