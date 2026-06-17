@@ -1,0 +1,21 @@
+Que las plataformas tecnológicas puedan recibir reportes e información de los ciudadanos
+de forma estructurada es fundamental para construir comunidades mejor organizadas y
+con servicios más eficientes. Cuando un ciudadano envía un reporte en formato JSON,
+la información llega organizada, clara y lista para ser procesada automáticamente,
+sin necesidad de interpretación manual.
+
+Esto reduce los errores que ocurren cuando los datos se reciben de forma desordenada
+o en texto libre, y permite que los sistemas respondan más rápido a las necesidades
+de la comunidad. Por ejemplo, si una persona reporta una falla en el alumbrado público
+con un formato definido (tipo e descripción), el sistema puede identificar de inmediato
+de qué tipo de problema se trata y asignarlo al área responsable.
+
+Además, la recolección estructurada de datos permite generar estadísticas, identificar
+los problemas más frecuentes en un sector y tomar decisiones basadas en información real.
+Esto es especialmente valioso para entidades como alcaldías, juntas de acción comunal
+o empresas de servicios públicos que necesitan priorizar recursos.
+
+En conclusión, usar tecnologías como Express con req.body no es solo un ejercicio de
+programación: es la base de herramientas reales que mejoran la comunicación entre
+los ciudadanos y las instituciones, haciendo que los problemas se atiendan más rápido
+y con mayor precisión.
