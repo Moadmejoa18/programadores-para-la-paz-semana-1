@@ -1,0 +1,15 @@
+Resultados de las pruebas realizadas al servidor:
+
+Ruta 1: http://localhost:3000
+Al ingresar a esta dirección el servidor responde con el texto "Servidor activo y funcionando".
+Es la ruta principal que confirma que el servidor está encendido y listo para recibir solicitudes.
+
+Ruta 2: http://localhost:3000/saludo
+Al acceder a esta ruta el servidor devuelve el mensaje "Hola comunidad".
+Es una ruta fija que siempre responde con el mismo texto sin importar quién la consulte.
+
+Ruta 3: http://localhost:3000/mensaje/juan
+El servidor responde con "Bienvenido juan, gracias por conectarte".
+Esta ruta tiene un parámetro dinámico :nombre que cambia según lo que se escriba en la URL.
+Por ejemplo si se escribe http://localhost:3000/mensaje/carlos la respuesta sería
+"Bienvenido carlos, gracias por conectarte", lo que la hace mucho más flexible y reutilizable.
