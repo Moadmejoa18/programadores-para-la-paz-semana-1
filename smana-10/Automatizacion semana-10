@@ -1,0 +1,16 @@
+Automatizacion semana10 · TXT
+¿Qué evento activa el flujo?
+Se activa cuando un ciudadano registra un nuevo reporte de incidencia en el
+sistema (por ejemplo, al enviar un formulario o guardar un nuevo registro).
+ 
+¿Qué mensaje se enviaría a Telegram?
+"Nuevo reporte recibido. ID: #0001. Categoría: espacio público. Revisar
+sistema para más detalles."
+ 
+¿Qué información no debería enviarse por seguridad?
+- Nombres completos de las personas involucradas.
+- Números de documento de identidad.
+- Direcciones exactas o datos de ubicación sensibles.
+- Números de teléfono.
+- Claves, tokens de Telegram o API keys.
+- Cualquier dato personal que permita identificar a alguien sin su consentimiento.
