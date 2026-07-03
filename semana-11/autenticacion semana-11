@@ -1,0 +1,19 @@
+Autenticacion · TXT
+El login permite identificar a un usuario antes de darle acceso a ciertas
+funciones de la plataforma, verificando que la persona es quien dice ser
+mediante un usuario y una contraseña (u otro método de verificación).
+ 
+Algunas rutas deben estar protegidas porque pueden contener información
+privada, registros internos o acciones administrativas —como eliminar una
+causa o ver datos de otros usuarios— que no deberían estar disponibles para
+cualquier persona que visite la plataforma.
+ 
+Proteger estas rutas evita que usuarios sin permisos modifiquen información
+sensible o accedan a funciones que solo corresponden a un rol específico,
+como el de coordinador.
+ 
+No se deben exponer públicamente contraseñas, documentos de identidad,
+teléfonos, direcciones, tokens, claves de API ni ningún dato sensible de la
+comunidad, ya que esto pondría en riesgo la privacidad y seguridad de las
+personas.
+ 
