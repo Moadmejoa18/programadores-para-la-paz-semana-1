@@ -1,0 +1,26 @@
+Modelo datos · TXT
+Entidad: Causa
+ 
+Campos principales:
+- id
+- titulo
+- descripcion
+- fecha
+ 
+Propósito:
+Guardar las causas comunitarias que serán visibles en la plataforma, para
+que cualquier usuario pueda conocer las iniciativas activas y su información
+básica.
+ 
+ 
+Entidad: Apoyo
+ 
+Campos principales:
+- id
+- causa_id
+- usuario
+- fecha
+ 
+Propósito:
+Registrar los apoyos que recibe cada causa para hacer seguimiento a la
+participación de la comunidad y calcular el total de apoyos por causa.
