@@ -1,0 +1,19 @@
+Interfaz · TXT
+La interfaz tendría una sección para crear una nueva causa comunitaria, con
+un formulario que incluya título, descripción y fecha.
+ 
+También tendría una vista principal con la lista de causas disponibles, para
+que cualquier usuario pueda leer las iniciativas activas de la comunidad.
+ 
+Cada causa mostrada en la lista tendría un botón de "Apoyar" que permite a un
+usuario autenticado registrar su apoyo, junto con un contador visible que
+muestre cuántas personas han apoyado esa causa hasta el momento.
+ 
+La navegación sería simple: una página de inicio con el listado de causas,
+un formulario de creación accesible solo para usuarios con sesión iniciada,
+y un pequeño panel o sección donde el usuario pueda ver las causas que ha
+apoyado.
+ 
+La interfaz debe ser clara, sencilla y fácil de usar incluso para personas
+con poca experiencia tecnológica, y no debe mostrar en ningún momento
+información privada de los usuarios, como su documento, teléfono o correo.
