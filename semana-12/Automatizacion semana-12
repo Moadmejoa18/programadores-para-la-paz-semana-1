@@ -1,0 +1,17 @@
+Automatizacion · TXT
+Automatización simple - "Petición en 3 Clics"
+ 
+Evento: Se registra una nueva causa en la plataforma.
+ 
+Mensaje enviado: "Nueva causa creada en la plataforma: [título de la causa]. ¡Súmate y apoya esta iniciativa!"
+ 
+Herramienta utilizada: n8n conectado a un bot de Telegram, que detecta el evento de creación de una causa en la base de datos y dispara automáticamente el envío del mensaje a un canal o grupo comunitario.
+ 
+Información que NO debe enviarse por seguridad:
+- Cédulas o números de identificación
+- Números de teléfono
+- Direcciones físicas
+- Comentarios sensibles o datos personales de quienes apoyan la causa
+ 
+Esto garantiza que la automatización informe a la comunidad sin exponer datos privados de los ciudadanos que participan en la plataforma.
+ 
